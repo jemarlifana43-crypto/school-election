@@ -1,7 +1,71 @@
 <?php
 http_response_code(503);
-die("School Election Website is currently offline.");
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Election – Offline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #ffffff;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.12);
+            padding: 40px 30px;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 420px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        .icon {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            margin: 0 0 10px;
+            font-size: 26px;
+            letter-spacing: 1px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            opacity: 0.95;
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 13px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">🗳️</div>
+        <h1>School Election</h1>
+        <p>
+            The election website is currently <strong>offline</strong>.<br>
+            Voting has been officially closed.
+        </p>
+        <p>
+            Please wait for the announcement of the final results.
+        </p>
+        <div class="footer">
+            © <?php echo date("Y"); ?> School Election Committee
+        </div>
+    </div>
+</body>
+</html>
+
+
 <?php
 session_start();
 
