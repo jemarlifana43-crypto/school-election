@@ -1,4 +1,8 @@
 <?php
+http_response_code(503);
+die("School Election Website is currently offline.");
+?>
+<?php
 session_start();
 
 // If already logged in as voter, go directly to vote.php
