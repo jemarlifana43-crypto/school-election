@@ -371,7 +371,7 @@ if ($voting_started && $_SERVER['REQUEST_METHOD'] === 'POST') {
     
     <div class="footer">
         <p>Powered by <?= htmlspecialchars($system_title) ?></p>
-        <p>Developed by: <a href="https://www.facebook.com/sirtopet" target="_blank">Cristopher Duro</a></p>
+        <p>Developed by: <a href="https://www.facebook.com/sirtopet@" target="_blank">Cristopher Duro| Modified JQL thru RAILWAY</a></p>
     </div>
 </body>
 </html>
