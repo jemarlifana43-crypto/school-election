@@ -498,7 +498,7 @@ if ($school_level === 'Elementary') {
         
         <div class="footer">
             <p>Powered by <?= htmlspecialchars($system_title) ?></p>
-            <p>Developed by: <a href="https://www.facebook.com/sirtopet" target="_blank">Cristopher Duro</a></p>
+            <p>Developed by: <a href="https://www.facebook.com/sirtopet@" target="_blank">Cristopher Duro | Modified by JQL thru RAILWAY</a></p>
         </div>
     </div>
 
