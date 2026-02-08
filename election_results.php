@@ -380,7 +380,7 @@ while ($row = $result->fetchArray()) {
         <div class="footer">
             <p>Final Election Results - <?= date('Y-m-d H:i:s') ?></p>
             <p>Powered by <?= htmlspecialchars($system_title) ?></p>
-            <p>Developed by: <a href="https://www.facebook.com/sirtopet" target="_blank">Cristopher Duro</a></p>
+            <p>Developed by: <a href="https://www.facebook.com/sirtopet@" target="_blank">Cristopher Duro | Modified JQL thru RAILWAY</a></p>
         </div>
     </div>
 </body>
