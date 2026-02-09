@@ -207,19 +207,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             $eligible = in_array($student['grade_level'], [8, 9]);
                             break;
                         case 'Secretary':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Treasurer':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Auditor':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Public Information Officer':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Protocol Officer':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Grade 10 Representative':
                         case 'Grade 10 Representative 1':
@@ -643,11 +643,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             requiredGrades = [11, 12];
                             break;
                         case 'Secretary':
+                            requiredGrades = [7, 8, 9, 10, 11, 12];
+                            break;
                         case 'Treasurer':
                         case 'Auditor':
                         case 'Public Information Officer':
                         case 'Protocol Officer':
-                            requiredGrades = [7, 8, 9, 10, 11];
+                            requiredGrades = [7, 8, 9, 10, 11, 12];
                             break;
                         case 'Grade 12 Representative':
                         case 'Grade 12 Representative 1':
