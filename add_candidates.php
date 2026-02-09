@@ -120,19 +120,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             $eligible = in_array($student['grade_level'], [11, 12]);
                             break;
                         case 'Secretary':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Treasurer':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Auditor':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Public Information Officer':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Protocol Officer':
-                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11]);
+                            $eligible = in_array($student['grade_level'], [7, 8, 9, 10, 11, 12]);
                             break;
                         case 'Grade 12 Representative':
                         case 'Grade 12 Representative 1':
